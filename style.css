@@ -124,3 +124,17 @@ p {
   width: 30%;
   border: 10px white !important;
 }
+@media (max-width: 400px) {
+  .weatherImg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+  }
+  h2 {
+    width: 100%;
+  }
+  content {
+    display: none;
+  }
+}
